@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public interface SpringBootUserApplication {
     public static void main(String[] args) {
+        System.out.println("123456");
         SpringApplication.run(SpringBootUserApplication.class);
     }
 }
